@@ -1,0 +1,45 @@
+Judge’s Decision
+
+A Person Found Guilty or Non Guilty,
+
++ve-  if Person Guilty
+-ve-  if Person Not Guilty
+
+
+       Actual -> Guilty ;  Pred ->  Guilty       (TP)
+	Actual -> Guilty;  Pred ->  Not Guilty (FN)
+	Actual -> Not Guilty;  Pred -> Guilty (FP)
+	Actual -> Not Guilty ;  Pred ->  Not Guilty (TN)
+
+
+Which one is critical ?
+FP ,  FP is more important because a non guilty person should never be punished
+
+
+
+
+
+
+
+
+Covid RTPCR Test
+
+Test that predicts Covid,
+
++ve-  covid+ve
+-ve-  covid-ve
+
+
+       Actual -> covid+ve ;  Pred ->  covid+ve       (TP)
+	Actual -> covid+ve;  Pred ->  covid-ve (FN)
+	Actual -> covid-ve;  Pred -> covid+ve (FP)
+	Actual -> covid-ve;  Pred ->  covid-ve (TN)
+
+
+Which one is critical ?
+FN is critical, because if test result comes negative the person keeps spreading the virus.
+
+
+
+
+
